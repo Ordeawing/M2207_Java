@@ -14,7 +14,7 @@ public class Exo1 {
 
         for(int i = 0; i < phrase.length(); i++){
             if(charArray[i] == 'r'){
-                System.out.println("Le premier R est a la pos: " + i+1);
+                System.out.println("Le premier R est a la pos: " + (i+1));
                 break;
             }
         }
