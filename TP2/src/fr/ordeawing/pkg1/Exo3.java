@@ -29,5 +29,10 @@ public class Exo3 {
         }
         System.out.println(list2);
 
+        // Q4
+        if(list1.contains(3)){
+            System.out.println("Le chiffre 3 se trouve dans list1");
+            System.out.println("Le chiffre 3 se trouve a la position " + list1.indexOf(3));
+        }
     }
 }
